@@ -1,11 +1,11 @@
 variable "aws_region" {
   description = "The AWS region to create things in."
-  default     = "ap-southeast-1"
+  default     = "us-east-1"
 }
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     =  "Singapore"
+  default     =  "web"
 }
 
 variable "instance_type" {
@@ -20,5 +20,5 @@ variable "security_group" {
 
 variable "ami_id" {
   description = "AMI for Amazon Ami2 Ec2 instance"
-  default     = "ami-04b6019d38ea93034"
+  default     = "ami-06b21ccaeff8cd686"
 }
