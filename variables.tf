@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "sg-0e59e4c5e983a0cb1"
+  default     = "sg-0ff191ebab828245a"
 }
 
 variable "ami_id" {
